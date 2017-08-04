@@ -4,6 +4,7 @@ export default function cookieLaw(container) {
     const isAccepted = () => document.cookie.indexOf(ID) !== -1;
 
     if (isAccepted()) {
+        console.log('hello');
         return;
     }
 
